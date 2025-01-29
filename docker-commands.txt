@@ -31,7 +31,7 @@ docker run --name goals-backend \
   -e MONGODB_USERNAME=max \
   -e MONGODB_PASSWORD=secret \
   -v logs:/app/logs \
-  -v /Users/maximilianschwarzmuller/development/teaching/udemy/docker-complete/backend:/app \
+  -v /Users/development/teaching/udemy/docker-complete/backend:/app \
   -v /app/node_modules \
   --rm \
   -d \
